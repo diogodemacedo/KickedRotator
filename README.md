@@ -4,10 +4,10 @@ This repository contains a Python script for simulating the Standard map, a well
 
 ## Scripts
 
-'''standardmap_trajectories.py''': This script simulates the trajectories of two points in the standard map/kicked rotator model and generates a plot with the trajectories, under a given number of kicks. Input values: x0_1 and p0_1(initial values of the first point in the map), x0_2 and p0_2: (initial values of the second point in the map); K (the strength of the perturbation in the map); kicks_number (the number of iterations (or "kicks") to perform).
+**`standardmap_trajectories.py`**: This script simulates the trajectories of two points in the standard map/kicked rotator model and generates a plot with the trajectories, under a given number of kicks. Input values: x0_1 and p0_1(initial values of the first point in the map), x0_2 and p0_2: (initial values of the second point in the map); K (the strength of the perturbation in the map); kicks_number (the number of iterations (or "kicks") to perform).
 
-'''phase_portrait.py''': This script generates phase space plots for single and multiple trajectories of the standard map/kicked rotator model.
+**`phase_portrait.py`**: This script generates phase space plots for single and multiple trajectories of the standard map/kicked rotator model.
 
 ### Applications
 
-This script can be further developed to include additional features that are relevant to plasma physics research. For example, researchers could use this script to generate data that can be analyzed using machine learning techniques, such as clustering or classification algorithms, to identify patterns in the phase space plots that could reveal insights into plasma behavior. Additionally, researchers could use this script to simulate the dynamics of charged particles in more complex magnetic field geometries, such as tokamaks or stellarators.
+This script can be further developed to include additional features that are relevant to plasma physics research. For example,this script can be used to generate data that can be analyzed using machine learning techniques, such as clustering or classification algorithms, to identify patterns in the phase space plots that could reveal insights into plasma behavior. Additionally, its possible to use this script to simulate the dynamics of charged particles in more complex magnetic field geometries, such as tokamaks or stellarators.
